@@ -9,6 +9,8 @@ import lombok.Setter;
 @Setter
 @AllArgsConstructor
 @NoArgsConstructor
-public class Message {
-    private String data;
+public class Topic {
+    private String topicName;
+    private int partitions;
+    private short replicationFactor;
 }

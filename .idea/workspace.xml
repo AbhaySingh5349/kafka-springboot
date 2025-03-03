@@ -4,7 +4,16 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="9e41aaa7-7746-4355-8781-02246a8af66e" name="Changes" comment="" />
+    <list default="true" id="9e41aaa7-7746-4355-8781-02246a8af66e" name="Changes" comment="producing msg on hardcoded topic">
+      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/kafka-producer/src/main/java/com/streaming/kafka_producer/controller/TopicController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/kafka-producer/src/main/java/com/streaming/kafka_producer/dto/Topic.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/kafka-producer/src/main/java/com/streaming/kafka_producer/controller/EventController.java" beforeDir="false" afterPath="$PROJECT_DIR$/kafka-producer/src/main/java/com/streaming/kafka_producer/controller/EventController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/kafka-producer/src/main/java/com/streaming/kafka_producer/dto/Message.java" beforeDir="false" afterPath="$PROJECT_DIR$/kafka-producer/src/main/java/com/streaming/kafka_producer/dto/Event.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/kafka-producer/src/main/java/com/streaming/kafka_producer/service/KafkaMsgPublisher.java" beforeDir="false" afterPath="$PROJECT_DIR$/kafka-producer/src/main/java/com/streaming/kafka_producer/service/KafkaEventPublisher.java" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -17,11 +26,27 @@
       </list>
     </option>
   </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="GitHubPullRequestSearchHistory"><![CDATA[{
+  "lastFilter": {
+    "state": "OPEN",
+    "assignee": "AbhaySingh5349"
+  }
+}]]></component>
+  <component name="GithubPullRequestsUISettings"><![CDATA[{
+  "selectedUrlAndAccountId": {
+    "url": "https://github.com/AbhaySingh5349/kafka-springboot.git",
+    "accountId": "7d06fe0f-0b6a-4d75-b208-fd8dbc59bdcd"
+  }
+}]]></component>
   <component name="ProjectColorInfo"><![CDATA[{
   "customColor": "",
   "associatedIndex": 3
 }]]></component>
   <component name="ProjectId" id="2tnGAZwRshGxX3jSAJ2QJzk5ZJJ" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
@@ -33,8 +58,10 @@
     "Application.KafkaProducerApplication.executor": "Run",
     "Application.Producer.executor": "Run",
     "RunOnceActivity.ShowReadmeOnStart": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "git-widget-placeholder": "master",
     "kotlin-language-version-configured": "true",
-    "last_opened_file_path": "C:/Users/Acer/IdeaProjects/ems-backend"
+    "last_opened_file_path": "C:/Users/Acer/IdeaProjects/kafka-springboot"
   }
 }]]></component>
   <component name="RunManager" selected="Application.Producer">
@@ -70,6 +97,19 @@
       <option name="presentableId" value="Default" />
       <updated>1740980282424</updated>
     </task>
+    <task id="LOCAL-00001" summary="producing msg on hardcoded topic">
+      <option name="closed" value="true" />
+      <created>1740986436209</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1740986436209</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="producing msg on hardcoded topic" />
+    <option name="LAST_COMMIT_MESSAGE" value="producing msg on hardcoded topic" />
   </component>
 </project>
