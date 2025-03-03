@@ -1,6 +1,10 @@
 spring:
   application:
     name: kafka-consumer
+  kafka:
+    producer:
+      bootstrap-servers: localhost:9092
+      group-id: streaming-group
 
 server:
   port: 8001
