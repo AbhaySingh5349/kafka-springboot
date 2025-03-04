@@ -1,14 +1,9 @@
 package com.streaming.kafka_producer.dto;
 
-import lombok.AllArgsConstructor;
-import lombok.Getter;
-import lombok.NoArgsConstructor;
-import lombok.Setter;
+import lombok.*;
 
-@Getter
-@Setter
+@Data
 @AllArgsConstructor
-@NoArgsConstructor
 public class Topic {
     private String topicName;
     private int partitions;

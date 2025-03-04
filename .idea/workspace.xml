@@ -4,12 +4,19 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="9e41aaa7-7746-4355-8781-02246a8af66e" name="Changes" comment="added endpoint to create topics dynamically">
-      <change afterPath="$PROJECT_DIR$/kafka-consumer/src/main/java/com/streaming/kafka_consumer/service/KafkaEventConsumer.java" afterDir="false" />
+    <list default="true" id="9e41aaa7-7746-4355-8781-02246a8af66e" name="Changes" comment="added consumer instances for consuming messages">
+      <change afterPath="$PROJECT_DIR$/kafka-producer/src/main/java/com/streaming/kafka_producer/entity/Customer.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/kafka-consumer/src/main/resources/application.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/kafka-consumer/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/kafka-consumer/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/kafka-consumer/src/main/java/com/streaming/kafka_consumer/service/KafkaEventConsumer.java" beforeDir="false" afterPath="$PROJECT_DIR$/kafka-consumer/src/main/java/com/streaming/kafka_consumer/service/KafkaEventConsumer.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/kafka-consumer/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/kafka-consumer/src/main/resources/application.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/kafka-producer/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/kafka-producer/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/kafka-producer/src/main/java/com/streaming/kafka_producer/controller/EventController.java" beforeDir="false" afterPath="$PROJECT_DIR$/kafka-producer/src/main/java/com/streaming/kafka_producer/controller/EventController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/kafka-producer/src/main/java/com/streaming/kafka_producer/dto/Event.java" beforeDir="false" afterPath="$PROJECT_DIR$/kafka-producer/src/main/java/com/streaming/kafka_producer/dto/Event.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/kafka-producer/src/main/java/com/streaming/kafka_producer/dto/Topic.java" beforeDir="false" afterPath="$PROJECT_DIR$/kafka-producer/src/main/java/com/streaming/kafka_producer/dto/Topic.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/kafka-producer/src/main/java/com/streaming/kafka_producer/service/KafkaEventPublisher.java" beforeDir="false" afterPath="$PROJECT_DIR$/kafka-producer/src/main/java/com/streaming/kafka_producer/service/KafkaEventPublisher.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/kafka-producer/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/kafka-producer/src/main/resources/application.yml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -19,6 +26,7 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
+        <option value="Interface" />
         <option value="Class" />
       </list>
     </option>
@@ -58,9 +66,14 @@
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
     "git-widget-placeholder": "master",
     "kotlin-language-version-configured": "true",
-    "last_opened_file_path": "C:/Users/Acer/IdeaProjects/kafka-springboot"
+    "last_opened_file_path": "C:/Users/Acer/IdeaProjects/kafka-springboot/kafka-consumer/src/main/java/com/streaming/kafka_consumer"
   }
 }]]></component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\Acer\IdeaProjects\kafka-springboot\kafka-consumer\src\main\java\com\streaming\kafka_consumer" />
+    </key>
+  </component>
   <component name="RunManager" selected="Application.Consumer">
     <configuration name="Consumer" type="Application" factoryName="Application">
       <option name="ALTERNATIVE_JRE_PATH" value="18 (4)" />
@@ -110,12 +123,32 @@
       <option name="project" value="LOCAL" />
       <updated>1740992969934</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="added consumer instances for consuming messages">
+      <option name="closed" value="true" />
+      <created>1740996076617</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1740996076617</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="producing msg on hardcoded topic" />
     <MESSAGE value="added endpoint to create topics dynamically" />
-    <option name="LAST_COMMIT_MESSAGE" value="added endpoint to create topics dynamically" />
+    <MESSAGE value="added consumer instances for consuming messages" />
+    <option name="LAST_COMMIT_MESSAGE" value="added consumer instances for consuming messages" />
   </component>
 </project>
