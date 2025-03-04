@@ -1,11 +1,15 @@
 package com.streaming.kafka_consumer.service;
 
 import com.fasterxml.jackson.core.JsonProcessingException;
+import com.fasterxml.jackson.databind.JsonMappingException;
 import com.fasterxml.jackson.databind.JsonNode;
 import com.fasterxml.jackson.databind.ObjectMapper;
 import com.fasterxml.jackson.databind.node.ObjectNode;
 import lombok.extern.slf4j.Slf4j;
+import org.apache.kafka.clients.consumer.ConsumerRecord;
+import org.apache.kafka.common.errors.SerializationException;
 import org.springframework.kafka.annotation.KafkaListener;
+import org.springframework.messaging.handler.annotation.Payload;
 import org.springframework.stereotype.Component;
 import org.springframework.stereotype.Service;
 
@@ -19,18 +23,10 @@ public class KafkaEventConsumer {
         log.info("MESSAGE: " + msg);
 
         try {
-//            ObjectNode objectNode = objectMapper.readValue(msg, ObjectNode.class);
-//
-//            String title = objectNode.get("title").textValue();
-//            String description = objectNode.get("description").textValue();
+            ObjectNode objectNode = objectMapper.readValue(msg, ObjectNode.class);
 
-            JsonNode jsonNode = objectMapper.readTree(msg);
-            if (jsonNode.isTextual()) {
-                jsonNode = objectMapper.readTree(jsonNode.asText());
-            }
-
-            String title = jsonNode.has("title") ? jsonNode.get("title").asText() : "Unknown Title";
-            String description = jsonNode.has("description") ? jsonNode.get("description").asText() : "Unknown Description";
+            String title = objectNode.get("title").textValue();
+            String description = objectNode.get("description").textValue();
 
             log.info("Parsed Title: " + title);
             log.info("Parsed Description: " + description);

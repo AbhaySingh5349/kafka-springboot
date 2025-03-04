@@ -4,18 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="9e41aaa7-7746-4355-8781-02246a8af66e" name="Changes" comment="added consumer instances for consuming messages">
-      <change afterPath="$PROJECT_DIR$/kafka-producer/src/main/java/com/streaming/kafka_producer/entity/Customer.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+    <list default="true" id="9e41aaa7-7746-4355-8781-02246a8af66e" name="Changes" comment="producer-consumer workflow via APIs">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/kafka-consumer/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/kafka-consumer/pom.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/kafka-consumer/src/main/java/com/streaming/kafka_consumer/service/KafkaEventConsumer.java" beforeDir="false" afterPath="$PROJECT_DIR$/kafka-consumer/src/main/java/com/streaming/kafka_consumer/service/KafkaEventConsumer.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/kafka-consumer/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/kafka-consumer/src/main/resources/application.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/kafka-producer/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/kafka-producer/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/kafka-producer/src/main/java/com/streaming/kafka_producer/controller/EventController.java" beforeDir="false" afterPath="$PROJECT_DIR$/kafka-producer/src/main/java/com/streaming/kafka_producer/controller/EventController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/kafka-producer/src/main/java/com/streaming/kafka_producer/dto/Event.java" beforeDir="false" afterPath="$PROJECT_DIR$/kafka-producer/src/main/java/com/streaming/kafka_producer/dto/Event.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/kafka-producer/src/main/java/com/streaming/kafka_producer/dto/Topic.java" beforeDir="false" afterPath="$PROJECT_DIR$/kafka-producer/src/main/java/com/streaming/kafka_producer/dto/Topic.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/kafka-producer/src/main/java/com/streaming/kafka_producer/service/KafkaEventPublisher.java" beforeDir="false" afterPath="$PROJECT_DIR$/kafka-producer/src/main/java/com/streaming/kafka_producer/service/KafkaEventPublisher.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/kafka-producer/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/kafka-producer/src/main/resources/application.yml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -131,7 +123,15 @@
       <option name="project" value="LOCAL" />
       <updated>1740996076617</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="producer-consumer workflow via APIs">
+      <option name="closed" value="true" />
+      <created>1741063084763</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1741063084764</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -149,6 +149,7 @@
     <MESSAGE value="producing msg on hardcoded topic" />
     <MESSAGE value="added endpoint to create topics dynamically" />
     <MESSAGE value="added consumer instances for consuming messages" />
-    <option name="LAST_COMMIT_MESSAGE" value="added consumer instances for consuming messages" />
+    <MESSAGE value="producer-consumer workflow via APIs" />
+    <option name="LAST_COMMIT_MESSAGE" value="producer-consumer workflow via APIs" />
   </component>
 </project>

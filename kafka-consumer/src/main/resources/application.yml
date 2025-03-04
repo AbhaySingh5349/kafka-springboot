@@ -1,12 +1,15 @@
+server:
+  port: 8001
+
 spring:
   application:
     name: kafka-consumer
   kafka:
-    producer:
+    consumer:
       bootstrap-servers: localhost:9092
       group-id: streaming-group
       key-deserializer: org.apache.kafka.common.serialization.StringDeserializer
       value-deserializer: org.springframework.kafka.support.serializer.JsonDeserializer
-
-server:
-  port: 8001
+      auto-offset-reset: latest
+      properties:
+        spring.json.trusted.packages: "*"   # Allows deserialization of any package
