@@ -42,7 +42,7 @@ public class EventController {
     public ResponseEntity<?> publishMsg(@RequestBody Event event){
         try {
 //            System.out.println("Event: " + event.toString());
-            publisher.sendMsgToTopic(event);
+            publisher.sendMsgToTopicViaRecord(event);
             return ResponseEntity.ok("message published successfully !");
         }catch (Exception e){
             System.out.println("Producer ERROR: " + e.getMessage());

@@ -8,4 +8,5 @@ public class Event {
     private String topic;
     private String title;
     private String description;
+    private String ipAddress;
 }

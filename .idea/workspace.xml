@@ -7,8 +7,11 @@
     <list default="true" id="9e41aaa7-7746-4355-8781-02246a8af66e" name="Changes" comment="producer-consumer workflow via APIs">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/kafka-consumer/src/main/java/com/streaming/kafka_consumer/service/KafkaEventConsumer.java" beforeDir="false" afterPath="$PROJECT_DIR$/kafka-consumer/src/main/java/com/streaming/kafka_consumer/service/KafkaEventConsumer.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/kafka-consumer/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/kafka-consumer/src/main/resources/application.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/kafka-producer/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/kafka-producer/src/main/resources/application.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/kafka-producer/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/kafka-producer/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/kafka-producer/src/main/java/com/streaming/kafka_producer/controller/EventController.java" beforeDir="false" afterPath="$PROJECT_DIR$/kafka-producer/src/main/java/com/streaming/kafka_producer/controller/EventController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/kafka-producer/src/main/java/com/streaming/kafka_producer/dto/Event.java" beforeDir="false" afterPath="$PROJECT_DIR$/kafka-producer/src/main/java/com/streaming/kafka_producer/dto/Event.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/kafka-producer/src/main/java/com/streaming/kafka_producer/service/KafkaEventPublisher.java" beforeDir="false" afterPath="$PROJECT_DIR$/kafka-producer/src/main/java/com/streaming/kafka_producer/service/KafkaEventPublisher.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/kafka-producer/src/test/java/com/streaming/kafka_producer/KafkaProducerApplicationTests.java" beforeDir="false" afterPath="$PROJECT_DIR$/kafka-producer/src/test/java/com/streaming/kafka_producer/KafkaProducerApplicationTests.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -54,6 +57,7 @@
     "Application.KafkaConsumerApplication.executor": "Run",
     "Application.KafkaProducerApplication.executor": "Run",
     "Application.Producer.executor": "Run",
+    "JUnit.KafkaProducerApplicationTests.testSendMsgToTopic.executor": "Run",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
     "git-widget-placeholder": "master",
@@ -131,7 +135,15 @@
       <option name="project" value="LOCAL" />
       <updated>1741063084764</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="producer-consumer workflow via APIs">
+      <option name="closed" value="true" />
+      <created>1741067283463</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1741067283463</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
